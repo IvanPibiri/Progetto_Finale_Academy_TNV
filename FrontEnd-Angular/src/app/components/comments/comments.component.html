@@ -1,10 +1,16 @@
+<div class="sfondo">
+    
+    <div classe="spacer"></div>
+
 <form #movieForm="ngForm" (submit)="createComment(movieForm)">
-    <input
+  
+<input
         [ngModel]
         name="user_id"
         placeholder="user_id"
         type="text" 
     >
+    <br>
 
     <input
         [ngModel]
@@ -13,17 +19,19 @@
 
         type="text" 
     >
-
-    <input
-        [ngModel]
+    <br>
+    <input  
+     [ngModel]
         name="movie_comment"
         placeholder="comment"
-
-        type="text" 
+         type="text" 
     >
+    <br>
     <button type="submit">Create Comments</button>
 
     <h1>Comment List</h1>
 
 
   </form>
+
+</div>
