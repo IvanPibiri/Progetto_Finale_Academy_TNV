@@ -15,7 +15,7 @@ import { LoginService } from 'src/app/services/login/login.service';
 export class LoginComponent implements OnInit {
 
   
-  isUserLoggedIn: Partial<UserDataInterface> = {};
+ // isUserLoggedIn: Partial<UserDataInterface> = {};
 
   constructor( private httpClient: HttpClient,  private loginService : LoginService ) {}
  
@@ -28,7 +28,9 @@ export class LoginComponent implements OnInit {
  
   login(user: NgForm) {
     this.loginService.postLogin( user.value).subscribe({
-      next: (res) => this.isUserLoggedIn = res,
+      next: (res) => {this.loginService.isUserLoggedIn = true;
+        this.loginService.userOn = res;
+      },
       error: () => console.log('error')
     });
 

@@ -25,8 +25,8 @@ const httpOptionsLogin = {
 export class LoginService {
 
   
-
-
+  userOn : UserDataInterface = {} as UserDataInterface;
+  isUserLoggedIn: boolean = false; 
   constructor(private httpClient: HttpClient) { }
 
   postLogin(user: UserDataInterface | null){

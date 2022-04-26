@@ -13,6 +13,26 @@
 </div>
 -->
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand"  [routerLink]="['/home']">MovieApp <i class="fas fa-video"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto ">
+      <li class="nav-item ">
+        <a class="nav-link" routerLinkActive="active" [routerLink]="['/home']">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" [routerLink]="['/search']">Search</a>
+      </li>
+      
+    </ul>
+  
+  </div>
+</nav>
+
 <div class="container">
   <div class="card mb-3" style="max-width: 940px;">
     <div class="row g-0">
@@ -25,7 +45,7 @@
         <div class="card-body"> 
           <h5 class="card-title">Card title</h5>
           <p class="card-text">{{movie.overview}}</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
         </div>
       <p class="lead">
       <a class="btn btn-primary btn-lg" (click)="goBack()" role="button">Back</a>

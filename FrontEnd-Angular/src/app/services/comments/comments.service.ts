@@ -1,9 +1,10 @@
 
-import { CommentsInterface} from 'src/app/models/commentModel'; 
+
 
 import { Injectable } from '@angular/core';
 
 import { HttpClient } from '@angular/common/http';
+import { Comments } from 'src/app/models/comments.model';
 
 
 
@@ -20,30 +21,26 @@ export class CommentsService {
 
   
   getComments() {
-    return this.http.get<CommentsInterface>(this.baseURL);
+    return this.http.get<Comments>(this.baseURL);
   }
 
   getComment(id:number) {
-    return this.http.get<CommentsInterface>(this.baseURL + "/" + id);
+    return this.http.get<Comments>(this.baseURL + "/" + id);
   }
 
   getUserComments(id: number) {
-    return this.http.get<CommentsInterface>(this.baseURL + "?user-id=" + id);
+    return this.http.get<Comments>(this.baseURL + "?user-id=" + id);
   }
   
-  addComment = (userId: number, movieId: number, data: CommentsInterface) => {
-    return this.http.post<CommentsInterface>(this.baseURL, {
-      "userId": userId,
-      "movieId": movieId,
-      "comments": data.comment
-    }); 
+  createComment(comment: Comments){
+    return this.http.post<Comments>(`http://localhost:5161/comments/`, comment);
   }
  
   deleteComment(id : number ) {
     return this.http.delete(this.baseURL + "/" + id);
   }
  
-  editComment = (data: CommentsInterface) => {
+  editComment = (data: Comments) => {
     return this.http.put(this.baseURL + '/' + data.id, {
       "id": data.id,
       "userId": data.userId,

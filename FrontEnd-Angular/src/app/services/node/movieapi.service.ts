@@ -17,7 +17,7 @@ export class MoviesApiService {
         return this.http.get<MovieData[]>(`https://api.themoviedb.org/3/list/3?api_key=3949444e64e7a9355250d3b1b5c59bf1`);
     } 
 
-    getMovieById(movieId:number | null){
+    getMovieById(movieId:number){
       return this.http.get<MovieData>(`https://api.themoviedb.org/3/movie/${movieId}?api_key=3949444e64e7a9355250d3b1b5c59bf1&language=it-it`);
     }
 
@@ -39,6 +39,10 @@ export class MoviesApiService {
     getMovieByVote(){
     return this.http.get<MovieData>(`https://api.themoviedb.org/3/discover/movie?api_key=3949444e64e7a9355250d3b1b5c59bf1&language=it-it&sort_by=vote_average.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate`) 
     }
+
+    
+
+
 
 
 }

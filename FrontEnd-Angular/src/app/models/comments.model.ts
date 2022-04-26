@@ -1,4 +1,4 @@
-export interface CommentsInterface{
+export interface Comments{
     id: number,
     userId: number,
     movieId: number,

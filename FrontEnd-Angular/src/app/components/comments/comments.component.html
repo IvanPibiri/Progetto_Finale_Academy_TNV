@@ -1,4 +1,4 @@
-<form #movieForm="ngForm" (submit)="createComment(movieForm)">
+<form #commentForm="ngForm" (submit)="createComment(commentForm)">
     <input
         [ngModel]
         name="user_id"
@@ -10,7 +10,6 @@
         [ngModel]
         name="movie_id"
         placeholder="movie_id"
-
         type="text" 
     >
 
@@ -18,12 +17,7 @@
         [ngModel]
         name="movie_comment"
         placeholder="comment"
-
         type="text" 
     >
     <button type="submit">Create Comments</button>
-
-    <h1>Comment List</h1>
-
-
   </form>
