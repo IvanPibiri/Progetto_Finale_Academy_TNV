@@ -11,6 +11,12 @@ export class MoviesApiService {
     private baseURL = 'https://api.themoviedb.org';
     apiKey : String = "3949444e64e7a9355250d3b1b5c59bf1";
 
+    getRandomInt(min: number, max: number) : number{
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+  };
+
     constructor( private http : HttpClient) { }
 
     getMovieList(){
@@ -28,7 +34,7 @@ export class MoviesApiService {
     //https://api.themoviedb.org/3/movie/550?api_key=3949444e64e7a9355250d3b1b5c59bf1
 
     getMoviePopulares(){
-      return this.http.get<MovieData>(`https://api.themoviedb.org/3/discover/movie?api_key=3949444e64e7a9355250d3b1b5c59bf1&language=it-it&sort_by=popularity.desc&page=1`)
+      return this.http.get<MovieData>(`https://api.themoviedb.org/3/discover/movie?api_key=3949444e64e7a9355250d3b1b5c59bf1&language=it-it&sort_by=popularity.desc&page=3${this.getRandomInt(1,50)}`)
      
     }
 
