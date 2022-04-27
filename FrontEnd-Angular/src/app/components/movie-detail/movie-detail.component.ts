@@ -24,10 +24,7 @@ export class MovieDetailComponent implements OnInit {
   isVisible: boolean = true;
 
 
-  
-  constructor(private httpClient: HttpClient, private serviceApi : MoviesApiService, private router: Router) {
-    
-  }
+  constructor(private httpClient: HttpClient, private serviceApi : MoviesApiService, private router: Router) {}
 
 
   ngOnInit(): void {

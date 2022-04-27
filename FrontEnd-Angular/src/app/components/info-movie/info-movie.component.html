@@ -36,6 +36,7 @@
     <div class="row g-0">
       <div class="col-md-4">
           <h1 class="display-4">{{movie.title}}</h1>
+          <h6 small class="card-text">Id Movie: {{movie.id}}</h6>
           <img  *ngIf="movie.poster_path" class="card-img-top" src="https://image.tmdb.org/t/p/original/{{movie.poster_path}}" alt="Card image cap">
           <img class="card-img-top"  *ngIf="!movie.poster_path" src="https://www.genesisglobalschool.edu.in/wp-content/uploads/2016/09/noimage.jpg" alt="Card image cap">
       </div>

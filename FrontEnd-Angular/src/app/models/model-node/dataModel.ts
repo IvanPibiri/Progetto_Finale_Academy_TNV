@@ -14,6 +14,7 @@ interface Result {
   original_language: string;
   original_title: string;
   overview: string;
+  evaluation: number;
   popularity: number;
   poster_path: string;
   release_date: string;
@@ -21,4 +22,5 @@ interface Result {
   video: boolean;
   vote_average: number;
   vote_count: number;
+  
 }

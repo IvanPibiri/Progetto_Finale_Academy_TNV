@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { MovieDataInterface } from 'src/app/models/model-node/apiMovie.model';
 import { MovieData } from 'src/app/models/model-node/dataModel';
 import { MoviesApiService } from 'src/app/services/node/movieapi.service';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-sort-by',
@@ -12,44 +14,46 @@ export class SortByComponent implements OnInit {
 
   constructor(private dataService: MoviesApiService) { }
 
-  sortOptions = ["releaseDate"];
+  sortOptions = ["releaseDate", "evaluation"];
 
-  movies : MovieData[] = [];
-  orderedItems : MovieData[]= [];
-  showResult = false;
-  sortOption!: string;
-
+  movies : MovieDataInterface[] = [];
+  optionSelected!: string;
+  moviesOrdered : MovieDataInterface[] = [];
   
 
   ngOnInit(): void {
-    //this.getEntries();
+     // this.getEntries();
+  } //da rivedere
+  /*
+  getEntries(){
+    this.dataService.getData().subscribe( (response : any) => {
+      this.movies = response;
+    })
   }
-/*
+
   sortBy(form: NgForm){
-    this.sortOption = form.form.value.sortOption;
-    this.showResult=true;
-
-    let sorting = this.sortOption;
-    if(sorting=="evaluation" || sorting=="reviews"){
-      this.orderedItems = this.movies.sort(function(a,b) {
-        return -(a[sorting] - b[sorting]);
+    this.optionSelected = form.form.value.optionSelected;
+    console.log(form, this.movies, this.optionSelected);
+    let sorting = this.optionSelected;
+    if(sorting=="evaluation"){
+      this.moviesOrdered = this.movies.sort(function(a,b) {
+        return a[sorting] - b[sorting];
       })
-
+    
     }
     else if(sorting=="releaseDate"){
-      this.orderedItems = this.movies.sort(function(a,b) {
+      this.moviesOrdered = this.movies.sort(function(a,b) {
         let aD= new Date(a['releaseDate']);
         let bD = new Date(b['releaseDate']);
-
+        
         return aD.getTime() - bD.getTime();
       })
     }
+     
+    
   }
 
-  getEntries() {
-    this.dataService.getData().subscribe((response: any) => {
-    this.movies = response;
-  })
-}
-*/
+        
+      }*/
+
 }

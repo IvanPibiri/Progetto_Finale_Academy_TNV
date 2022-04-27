@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { MovieData } from 'src/app/models/model-node/dataModel';
+import { Observable } from 'rxjs';
 
 
 @Injectable({
@@ -19,7 +20,7 @@ export class MoviesApiService {
 
     constructor( private http : HttpClient) { }
 
-    getMovieList(){
+    getMovieList(): Observable<MovieData[]> {
         return this.http.get<MovieData[]>(`https://api.themoviedb.org/3/list/3?api_key=3949444e64e7a9355250d3b1b5c59bf1`);
     } 
 

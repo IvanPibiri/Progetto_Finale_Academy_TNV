@@ -21,7 +21,7 @@ export class CommentsService {
 
   
   getComments() {
-    return this.http.get<Comments>(this.baseURL);
+    return this.http.get<Comments[]>(this.baseURL);
   }
 
   getComment(id:number) {
