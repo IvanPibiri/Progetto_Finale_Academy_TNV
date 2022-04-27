@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: "login", component: LoginComponent},
   { path: "login/allusers", component: LoginComponent},
   { path: "login/id", component: LoginComponent},
-  { path: "movie", component: CommentsComponent },
+  { path: "comment", component: CommentsComponent },
   { path: "rating", component: RatingComponent },
   { path: "movie-fav", component: MovieFavComponent},
   { path: "movie-list", component: MovieDetailComponent},

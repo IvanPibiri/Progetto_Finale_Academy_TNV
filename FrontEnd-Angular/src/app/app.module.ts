@@ -15,6 +15,7 @@ import { MovieDetailComponent } from './components/movie-detail/movie-detail.com
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { InfoMovieComponent } from './components/info-movie/info-movie.component';
+import { HomeGiocoComponent } from './components/home-gioco/home-gioco.component';
 
 
 
@@ -34,7 +35,8 @@ import { InfoMovieComponent } from './components/info-movie/info-movie.component
     MovieDetailComponent,
     HomeComponent,
     NavbarComponent,
-    InfoMovieComponent
+    InfoMovieComponent,
+    HomeGiocoComponent
 
   ],
   imports: [

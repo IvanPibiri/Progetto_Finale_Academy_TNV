@@ -26,6 +26,8 @@ export class InfoMovieComponent implements OnInit {
   goBack() {
     this.location.back();
   }
+
+ 
   ngOnInit(): void {
    // this.getMovie()
    }

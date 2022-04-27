@@ -16,10 +16,10 @@ export class MovieDetailComponent implements OnInit {
   maxRandom: number = 50000; //numero range max random
   movieId: number | null  = null; //id film
 
-  movie= {};
+  //movie= {};
 
   movies : MovieData | null = null;
-  movieArray : MovieData [] = [];
+  //movieArray : MovieData [] = [];
   movieVote : any;
   isVisible: boolean = true;
 
@@ -31,17 +31,18 @@ export class MovieDetailComponent implements OnInit {
 
 
   ngOnInit(): void {
-      /*this.serviceApi.getMoviePopulares().subscribe(
+     this.serviceApi.getMoviePopulares().subscribe(
         {
           next : (res) => this.movies = res
           
         }
-      );*/
+
+      );
       this.serviceApi.getMovieByVote().subscribe({
         next : (res) => this.movieVote = res
       })
 
-     this.setRandomMovie();
+    // this.setRandomMovie();
   }
 
   getRandomInt(max:number) {
@@ -49,9 +50,9 @@ export class MovieDetailComponent implements OnInit {
   }
   
 
-    setRandomMovie(){
+    //setRandomMovie(){
       //this.movieId = this.getRandomInt(this.maxRandom);
-
+/*
     const latestId = 5000;
     const randomId = Math.round(Math.random() * latestId);
     this.httpClient
@@ -64,9 +65,17 @@ export class MovieDetailComponent implements OnInit {
           console.log('ID non esistente, retry!');
           this.setRandomMovie();
         },
-      });
-  }
-
+      });*/
+/*
+      this.movieId = this.getRandomInt(this.maxRandom);
+      this.serviceApi.getMovieById(this.movieId).subscribe({
+      next : (res) => {
+        this.movies = res;
+        if(this.movies == null || this.movies === null) this.setRandomMovie();},
+      error: (res) => {
+        console.log(res);
+        this.setRandomMovie();}
+}); }*/
 
        searchMovie(movieTxt : string){
         if(movieTxt.length ==0){

@@ -19,22 +19,20 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+  <div class="collapse navbar-collapse" id="navbarToggler">
       <ul class="navbar-nav mr-auto ">
-      <li class="nav-item ">
+      <li class="nav-home ">
         <a class="nav-link" routerLinkActive="active" [routerLink]="['/home']">Home </a>
       </li>
-      <li class="nav-item">
+      <li class="nav-search">
         <a class="nav-link" routerLinkActive="active" [routerLink]="['/search']">Search</a>
       </li>
-      
     </ul>
-  
   </div>
 </nav>
 
-<div class="container">
-  <div class="card mb-3" style="max-width: 940px;">
+  <div class="container">
+  <div class="card mb-3" style="max-width: 840px;">
     <div class="row g-0">
       <div class="col-md-4">
           <h1 class="display-4">{{movie.title}}</h1>
@@ -42,14 +40,16 @@
           <img class="card-img-top"  *ngIf="!movie.poster_path" src="https://www.genesisglobalschool.edu.in/wp-content/uploads/2016/09/noimage.jpg" alt="Card image cap">
       </div>
       <div class="col-md-8">
-        <div class="card-body"> 
-          <h5 class="card-title">Card title</h5>
+        <div class="card-body">
+          <h5 class="card-title">Trama</h5> 
           <p class="card-text">{{movie.overview}}</p>
           <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
         </div>
       <p class="lead">
-      <a class="btn btn-primary btn-lg" (click)="goBack()" role="button">Back</a>
-    </p>
+      <button class="btn btn-primary btn-lg" (click)="goBack()" role="button">Back</button>
+      </p>
+      <button class="btn btn-primary btn-lg" [routerLink]="['/comment']">Comment</button>
+    </div>
   </div>
-</div>
+
 
