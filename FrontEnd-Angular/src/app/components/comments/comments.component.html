@@ -1,23 +1,42 @@
-<form #commentForm="ngForm" (submit)="createComment(commentForm)">
-    <input
+<div class="sfondo">
+    
+    <div classe="spacer"></div>
+
+<form #movieForm="ngForm" (submit)="createComment(movieForm)">
+  
+<input
         [ngModel]
         name="user_id"
         placeholder="user_id"
         type="text" 
     >
+    <br>
 
     <input
         [ngModel]
         name="movie_id"
         placeholder="movie_id"
+
         type="text" 
     >
-
-    <input
-        [ngModel]
+    <br>
+    
+    <textarea  
+     [ngModel]
         name="movie_comment"
         placeholder="comment"
-        type="text" 
+        rows="5"
+        cols="40" 
+        maxlength="160"
+         type="text"
+    ></textarea>
     >
-    <button type="submit">Create Comments</button>
+    <br>
+    <button type="submit">Send Comment</button>
+
+    <h1>Comment List</h1>
+
+
   </form>
+
+</div>
