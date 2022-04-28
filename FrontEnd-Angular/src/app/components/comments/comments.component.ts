@@ -1,6 +1,8 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { CommentsInterface } from 'src/app/models/commentModel';
+import { Comments } from 'src/app/models/comments.model';
 import { CommentsService } from 'src/app/services/comments/comments.service';
 
 @Component({
@@ -10,7 +12,10 @@ import { CommentsService } from 'src/app/services/comments/comments.service';
 })
 export class CommentsComponent implements OnInit {
 
-  constructor(private httpClient: HttpClient, private serviceBE: CommentsService ) { }
+  @Input() movieId!: number;
+  @Input() userId!: number;
+
+  constructor(private httpClient: HttpClient,private serviceBE: CommentsService) { }
 
   ngOnInit(): void {
   }
@@ -21,7 +26,11 @@ export class CommentsComponent implements OnInit {
       error: () => console.log('error')
     });
   }
-///////
+
+
+
+
+
 
 
 }

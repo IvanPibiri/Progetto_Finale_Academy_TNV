@@ -8,6 +8,7 @@ use App\Models\Movie;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\DB;
 
 
 class MovieController extends Controller
@@ -19,10 +20,13 @@ class MovieController extends Controller
      */
     public function index()
     {
-      return response()->json([
-          new MovieCollection(Movie::all()),
-          'Response Status' => Response::HTTP_OK
-      ]);
+     /* return response()->json(
+          DB::table('movies') -> 
+          select('movie_id',  'movie_rating','user_id') ->
+        get(),*/
+        return response()->Json(
+            new MovieCollection(Movie::all()),
+        );
 
     }
 

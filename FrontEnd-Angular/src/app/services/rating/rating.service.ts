@@ -12,11 +12,7 @@ export class RatingService {
   getRating(movie_id : number | null){
     return this.httpClient.get<movieRating>(`http://localhost:8000/api/movie_id/${movie_id}`);
   }
-
-  postRating(movieRating: movieRating | null){
-    return this.httpClient.post<movieRating>(`http://localhost:8000/api/movie`, movieRating);
-  }
-
+/*
   postMovieRating = (data: movieRating) => {
     console.log("Ho ricevuto", data);
     return this.httpClient.post<movieRating>(`http://localhost:8000/api/movie`, {
@@ -24,6 +20,14 @@ export class RatingService {
       "user_id" : data.user_id,
       "movie_rating" : data.movie_rating
     });
+  }*/
+  createNewRating(rating: movieRating | null){
+    return this.httpClient.post<movieRating>(`http://localhost:8000/api/movie`, rating);
+  }
+
+  createRatingMovie (movie_rating: movieRating | null){
+    const url = `http://localhost:8000/api/movie`;
+    return this.httpClient.post(url, movie_rating,)
   }
   
   deleteMovieRating(movie_id : number | null){

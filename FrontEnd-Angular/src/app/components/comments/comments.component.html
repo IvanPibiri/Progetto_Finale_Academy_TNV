@@ -2,28 +2,28 @@
     
     <div classe="spacer"></div>
 
-<form #movieForm="ngForm" (submit)="createComment(movieForm)">
+<form #commentForm="ngForm" (submit)="createComment(commentForm)">
   
 <input
         [ngModel]
-        name="user_id"
+        name="movieId"
         placeholder="user_id"
-        type="text" 
+        type="number" 
     >
     <br>
 
     <input
         [ngModel]
-        name="movie_id"
+        name="userId"
         placeholder="movie_id"
 
-        type="text" 
+        type="number" 
     >
     <br>
     
     <textarea  
      [ngModel]
-        name="movie_comment"
+        name="comment"
         placeholder="comment"
         rows="5"
         cols="40" 

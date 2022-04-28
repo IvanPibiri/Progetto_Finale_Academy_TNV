@@ -1,8 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { MoviesApiService } from 'src/app/services/node/movieapi.service';
-import { Location } from '@angular/common';
+import { Location, NgClass } from '@angular/common';
 import { MovieData } from 'src/app/models/model-node/dataModel';
+import { MovieFavorite } from 'src/app/models/model-node/movieDB';
+import { MovieDataBase } from 'src/app/services/node/moviedatabase';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-info-movie',
@@ -11,9 +14,10 @@ import { MovieData } from 'src/app/models/model-node/dataModel';
 })
 export class InfoMovieComponent implements OnInit {
 
+  movieFav: MovieFavorite [] | null = null;
   movie: any = {};
 
-  constructor( private route: ActivatedRoute, private movieService: MoviesApiService, private location: Location ) 
+  constructor( private route: ActivatedRoute, private movieService: MoviesApiService, private location: Location, private serviceFav: MovieDataBase) 
   {
     this.route.params.subscribe(res => {
         this.movieService.getMovieById(res['id']).subscribe(mov =>{
@@ -29,9 +33,26 @@ export class InfoMovieComponent implements OnInit {
 
  
   ngOnInit(): void {
-   // this.getMovie()
-   }
-  
+    /*
+   this.serviceFav.getMoviesFavList().subscribe(res => this.movieFav = res);
+   this.route.params.subscribe((pararms) => this.movie = pararms['movie']);
+   this.movieService.getMoviePopulares().subscribe({
+     next: (res) => this.
+   })
+   }*/
+  }
+
+createFavouriteMovie(favMovie: NgForm) {
+  this.serviceFav.postMovieFav(favMovie.value).subscribe({
+    next: () => console.log('Favourite Movie added!'),
+    error: () => console.log('Error!')
+  })
+}
+
+
+
+
+
 /*
   getMovie(){
   this.movieService.getMovieById(this.movieId).subscribe(
@@ -40,5 +61,6 @@ export class InfoMovieComponent implements OnInit {
     });
   }
   */
-}
+    
 
+}

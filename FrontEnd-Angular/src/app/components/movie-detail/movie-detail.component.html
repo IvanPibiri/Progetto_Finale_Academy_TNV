@@ -1,28 +1,3 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand"  [routerLink]="['/home']">MovieApp <i class="fas fa-video"></i></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto ">
-      <li class="nav-item ">
-        <a class="nav-link" routerLinkActive="active" [routerLink]="['/home']">Home </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active" [routerLink]="['/search']">Search</a>
-      </li>
-      
-    </ul>
-    <form class="form-inline my-2 my-lg-0" (ngSubmit)="searchMovie(buscarTxt.value)">
-      <input class="form-control mr-sm-5" type="search" placeholder="Search" aria-label="Search" #buscarTxt>
-      <div class="buttonSearch">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </div>
-    </form>
-  </div>
-</nav>
-
 
 <nav class="navbar navbar-light bg-light fixed-top">
   <div class="container-fluid">

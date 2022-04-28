@@ -1,50 +1,78 @@
-<form #movieForm="ngForm" (submit)="createRating(movieForm)">
-    <input
-        [ngModel]
-        name="movie_id"
-        placeholder="movie_id"
-        type="text" 
-    >
 
-    <input
-        [ngModel]
-        name="movie_rating"
-        placeholder="movie_rating"
+<form #rating="ngForm" (submit)="createRating(rating)">
+  <p> Id Film:<input
+      
+      [ngModel]
+      name="movie_id"
+      placeholder="ID Film"
+      type="text" 
+      
 
-        type="text" 
-    >
+      
+  >
+</p>
 
-    <input
-        [ngModel]
-        name="user_id"
-        placeholder="user_id"
+<p> Id User: 
+  <input
+      [ngModel]
+      name="user_id"
+      placeholder="user id"
+      type="text" 
+  >
+  <br>
+</p>
+<p> Rating: <br>   
+  &nbsp;<input 
+      [ngModel]
+      name="movie_rating"
+      id="1"
+      type="radio"
+      value="1"
+  >
+  <label for="1">1</label> <br>
 
-        type="text" 
-    >
-    <button type="submit">Create Rating</button>
-  </form>
-  <html>
+  
+  &nbsp;<input 
+      [ngModel]
+      name="movie_rating"
+      id="2"
+      type="radio"
+      value="2"
+  >
+  <label for="2">2</label><br>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Star rating using pure CSS</title>
-</head>
+  
+  &nbsp;<input 
+      [ngModel]
+      name="movie_rating"
+      id="3"
+      type="radio"
+      value="3"
+  >
+  <label for="3">3</label><br>
 
-<body>
-  <div class="rate">
-    <input type="radio" id="star5" name="rate" value="5" />
-    <label for="star5" title="text">5 stars</label>
-    <input type="radio" id="star4" name="rate" value="4" />
-    <label for="star4" title="text">4 stars</label>
-    <input type="radio" id="star3" name="rate" value="3" />
-    <label for="star3" title="text">3 stars</label>
-    <input type="radio" id="star2" name="rate" value="2" />
-    <label for="star2" title="text">2 stars</label>
-    <input type="radio" id="star1" name="rate" value="1" />
-    <label for="star1" title="text">1 star</label>
-  </div>
-</body>
+  
+  &nbsp;<input 
+      [ngModel]
+      name="movie_rating"
+      id="4"
+      type="radio"
+      value="4"
+  >
+  <label for="4">4</label><br>
 
-</html>
+  
+  &nbsp;<input 
+      [ngModel]
+      name="movie_rating"
+      id="5"
+      type="radio"
+      value="5"
+  >
+  <label for="5">5</label><br>
+  <br>
+</p>
+  <button type="submit">Vota!</button>
+</form>
   
   

@@ -82,7 +82,7 @@ export class MovieDetailComponent implements OnInit {
         this.router.navigate(['search', movieTxt])
       }
     
-     
+      
 
   
 }
