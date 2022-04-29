@@ -35,7 +35,7 @@ export class MoviesApiService {
     //https://api.themoviedb.org/3/movie/550?api_key=3949444e64e7a9355250d3b1b5c59bf1
 
     getMoviePopulares(){
-      return this.http.get<MovieData>(`https://api.themoviedb.org/3/discover/movie?api_key=3949444e64e7a9355250d3b1b5c59bf1&language=it-it&sort_by=popularity.desc&page=3${this.getRandomInt(1,50)}`)
+      return this.http.get<MovieData>(`https://api.themoviedb.org/3/discover/movie?api_key=3949444e64e7a9355250d3b1b5c59bf1&language=it-it&sort_by=popularity.desc&include_adult=false&page=1${this.getRandomInt(1,50)}`)
      
     }
 

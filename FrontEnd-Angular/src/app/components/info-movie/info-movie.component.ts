@@ -49,7 +49,7 @@ export class InfoMovieComponent implements OnInit {
 createFavouriteMovie() {
   this.movieFav = {id: null, movie_id: this.movie_id, user_id: this.user_id}
   this.serviceFav.postMovieFav(this.movieFav).subscribe({
-    next: () => console.log('Favourite Movie added!'),
+    next: () => console.log('Movie Aggiunto ai Preferiti'),
     error: () => console.log('Error!')
   })
 }
