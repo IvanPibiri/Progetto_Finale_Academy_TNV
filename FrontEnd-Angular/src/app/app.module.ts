@@ -17,6 +17,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { InfoMovieComponent } from './components/info-movie/info-movie.component';
 import { HomeGiocoComponent } from './components/home-gioco/home-gioco.component';
 import { SortByComponent } from './components/sort-by/sort-by.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -38,7 +39,8 @@ import { SortByComponent } from './components/sort-by/sort-by.component';
     NavbarComponent,
     InfoMovieComponent,
     HomeGiocoComponent,
-    SortByComponent
+    SortByComponent,
+    FooterComponent
 
   ],
   imports: [
