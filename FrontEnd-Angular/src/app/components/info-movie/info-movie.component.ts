@@ -14,7 +14,11 @@ import { NgForm } from '@angular/forms';
 })
 export class InfoMovieComponent implements OnInit {
 
-  movieFav: MovieFavorite [] | null = null;
+  id: number | null = null;
+  user_id: number | null = null;
+  movie_id: number | null = null;
+  movieFav: MovieFavorite | null = null; 
+  ListMovieFav : MovieFavorite[] = []; //lista favoriti
   movie: any = {};
 
   constructor( private route: ActivatedRoute, private movieService: MoviesApiService, private location: Location, private serviceFav: MovieDataBase) 
@@ -42,8 +46,9 @@ export class InfoMovieComponent implements OnInit {
    }*/
   }
 
-createFavouriteMovie(favMovie: NgForm) {
-  this.serviceFav.postMovieFav(favMovie.value).subscribe({
+createFavouriteMovie() {
+  this.movieFav = {id: null, movie_id: this.movie_id, user_id: this.user_id}
+  this.serviceFav.postMovieFav(this.movieFav).subscribe({
     next: () => console.log('Favourite Movie added!'),
     error: () => console.log('Error!')
   })
