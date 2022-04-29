@@ -1,0 +1,152 @@
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\libman.json
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.exe
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.deps.json
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.runtimeconfig.json
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.pdb
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.Core.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.Core.pdb
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.csproj.AssemblyReference.cache
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.AssemblyInfoInputs.cache
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.AssemblyInfo.cs
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.csproj.CoreCompileInputs.cache
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\scopedcss\bundle\MovieApp.RestAPI.styles.css
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.csproj.CopyComplete
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\refint\MovieApp.RestAPI.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.pdb
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.genruntimeconfig.cache
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\ref\MovieApp.RestAPI.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.DB.dll
+C:\Users\karli\OneDrive\Desktop\NET\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.DB.pdb
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\libman.json
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.exe
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.deps.json
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.runtimeconfig.json
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.pdb
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.Core.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.DB.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.Core.pdb
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.DB.pdb
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.csproj.AssemblyReference.cache
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.AssemblyInfoInputs.cache
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.AssemblyInfo.cs
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.csproj.CoreCompileInputs.cache
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\scopedcss\bundle\MovieApp.RestAPI.styles.css
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.csproj.CopyComplete
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\refint\MovieApp.RestAPI.dll
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.pdb
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.genruntimeconfig.cache
+C:\Users\davyo\Desktop\tnv\dotnet\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\ref\MovieApp.RestAPI.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\libman.json
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.exe
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.deps.json
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.runtimeconfig.json
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.pdb
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.Core.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.DB.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.Core.pdb
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.DB.pdb
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.csproj.AssemblyReference.cache
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.AssemblyInfoInputs.cache
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.AssemblyInfo.cs
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.csproj.CoreCompileInputs.cache
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\scopedcss\bundle\MovieApp.RestAPI.styles.css
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.csproj.CopyComplete
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\refint\MovieApp.RestAPI.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.pdb
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.genruntimeconfig.cache
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\obj\Debug\net6.0\ref\MovieApp.RestAPI.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\karli\Downloads\Telegram Desktop\movieApp finale\prgMovieApp\MovieApp\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\libman.json
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.exe
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.deps.json
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.runtimeconfig.json
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.RestAPI.pdb
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.Core.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.DB.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.Core.pdb
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\bin\Debug\net6.0\MovieApp.DB.pdb
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.csproj.AssemblyReference.cache
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.AssemblyInfoInputs.cache
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.AssemblyInfo.cs
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.csproj.CoreCompileInputs.cache
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\scopedcss\bundle\MovieApp.RestAPI.styles.css
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.csproj.CopyComplete
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\refint\MovieApp.RestAPI.dll
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.pdb
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\MovieApp.RestAPI.genruntimeconfig.cache
+C:\Users\karli\OneDrive\Desktop\Node.js\Progetto_Finale_TNV\Progetto_Finale_Academy_TNV\BEnd-DotNet\src\MovieApp.RestAPI\obj\Debug\net6.0\ref\MovieApp.RestAPI.dll
