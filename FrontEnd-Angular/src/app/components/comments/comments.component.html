@@ -3,7 +3,7 @@
     <div classe="spacer"></div>
 
 <form #commentForm="ngForm" (submit)="createComment(commentForm)">
-  
+    <h1>Comment</h1> 
 <input
         [ngModel]
         name="movieId"
@@ -34,7 +34,7 @@
     <br>
     <button type="submit">Send Comment</button>
 
-    <h1>Comment List</h1>
+    
   </form>
   <p class="lead">
     <button type="button" class="btn btn-outline-dark" (click)="goBack()" role="button">Back</button>
