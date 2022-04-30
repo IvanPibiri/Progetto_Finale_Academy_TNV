@@ -37,16 +37,10 @@ export class InfoMovieComponent implements OnInit {
 
  
   ngOnInit(): void {
-    /*
-   this.serviceFav.getMoviesFavList().subscribe(res => this.movieFav = res);
-   this.route.params.subscribe((pararms) => this.movie = pararms['movie']);
-   this.movieService.getMoviePopulares().subscribe({
-     next: (res) => this.
-   })
-   }*/
+
   }
 
-createFavouriteMovie() {
+createFavMovie() {
   this.movieFav = {id: null, movie_id: this.movie_id, user_id: this.user_id}
   this.serviceFav.postMovieFav(this.movieFav).subscribe({
     next: () => console.log('Movie Aggiunto ai Preferiti'),
@@ -54,18 +48,6 @@ createFavouriteMovie() {
   })
 }
 
-
-
-
-
-/*
-  getMovie(){
-  this.movieService.getMovieById(this.movieId).subscribe(
-    {
-      next: (res) => this.movies = res      
-    });
-  }
-  */
     
 
 }

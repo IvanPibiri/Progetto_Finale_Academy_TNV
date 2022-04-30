@@ -40,6 +40,7 @@
           <h1 class="display-8">{{movie.title}}</h1>
           <h6 small class="card-text">Id Movie: {{movie.id}}</h6>
           <img  *ngIf="movie.poster_path" class="card-img-top" src="https://image.tmdb.org/t/p/original/{{movie.poster_path}}" alt="Card image cap">
+
           <img class="card-img-top"  *ngIf="!movie.poster_path" src="https://www.genesisglobalschool.edu.in/wp-content/uploads/2016/09/noimage.jpg" alt="Card image cap">
       </div>
       <div class="col-md-8">
@@ -48,13 +49,14 @@
           <p class="card-text">{{movie.overview}}</p>
           <p class="card-text"><small class="text-muted">Last updated 1 mins ago</small></p>
         </div>
+        
       <p class="lead">
         <button type="button" class="btn btn-outline-dark" (click)="goBack()" role="button">Back</button>
       </p>
       <button class="btn btn-primary btn-sm" [routerLink]="['/comment']">Comment</button>
        <div class="buttonFav">
           <div class="login-form-1">
-            <form id="login-form" class="text-left" (submit)="createFavouriteMovie()">
+            <form id="login-form" class="text-left" (submit)="createFavMovie()">
               <div class="login-form-main-message"></div>
               <div class="main-login-form">
                 <button type="submit" class="btn btn-secondary btn-sm">Favorite</button>
