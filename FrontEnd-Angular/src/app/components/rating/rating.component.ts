@@ -6,7 +6,7 @@ import { movieRating } from 'src/app/models/rating-model/movieRating';
 import { MoviesApiService } from 'src/app/services/node/movieapi.service';
 import { MovieDataBase } from 'src/app/services/node/moviedatabase';
 import { RatingService } from 'src/app/services/rating/rating.service';
-
+import { Location, NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-rating',
@@ -21,21 +21,15 @@ export class RatingComponent implements OnInit {
   movieRating : any| null = null;
 
   //favorite : MovieFavorite[] = [];
-  constructor(private httpClient: HttpClient, private serviceBackEnd : RatingService) { }
+  constructor(private httpClient: HttpClient, private serviceBackEnd : RatingService, private location: Location) { }
 
-  ngOnInit(): void {
-   /* this.serviceBackEnd.getMoviesFavList().subscribe({
-      next: (res) => this.favorite = res,
-      error: () => console.log('error')
-    })*/
+  goBack() {
+    this.location.back();
   }
-/*
-  createRating(rating: NgForm) {
-    this.httpClient.post(`http://localhost:8000/api/movie`, rating.value).subscribe({
-      next: () => console.log('rating created'),
-      error: () => console.log('error')
-    });
-  }*/
+  ngOnInit(): void {
+ 
+  }
+
 
 
  createRating(rating: NgForm){
