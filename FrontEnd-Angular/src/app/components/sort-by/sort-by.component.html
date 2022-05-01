@@ -1,1 +1,44 @@
-<p>sort-by works!</p>
+
+<h2>Select Order By</h2>
+<div>Seleziona Primo Film Order by:
+<select ng-options="item for item in columns" ng-model="firstOrderBy">
+  <option value="">--  seleziona primo film  orderby --</option>
+</select></div><div>
+    Seleziona Secondo Film Order by:
+<select ng-options="item for item in columns" ng-model="secondOrderBy">
+  <option value="">-- seleziona secondo film orderby --</option>
+</select></div><div>
+    Seleziona Terzo Film by:
+<select ng-options="item for item in columns" ng-model="thirdOrderBy">
+  <option value="">-- seleziona secondo film orderby --</option>
+</select></div>
+<div>Seleziona Quarto Film by:
+<select ng-options="item for item in columns" ng-model="firstOrderBy">
+      <option value="">--  seleziona quarto film  orderby --</option>
+</select></div><div>
+    Seleziona Quinto Film by:
+<select ng-options="item for item in columns" ng-model="secondOrderBy">
+     <option value="">--  seleziona quinto film  orderby --</option>
+ </select></div><div>
+    Seleziona Sesto Film by:
+<select ng-options="item for item in columns" ng-model="thirdOrderBy">
+  <option value="">--  seleziona sesto film  orderby --</option>
+</select></div><div>
+    Seleziona Settimo Film by:
+<select ng-options="item for item in columns" ng-model="thirdOrderBy">
+  <option value="">--  seleziona sesto film  orderby --</option>
+</select></div><div>
+    Seleziona Ottavo Film by:
+<select ng-options="item for item in columns" ng-model="thirdOrderBy">
+  <option value="">--  seleziona sesto film  orderby --</option>
+</select></div> <div>
+    Seleziona Nono Film by:
+<select ng-options="item for item in columns" ng-model="thirdOrderBy">
+  <option value="">--  seleziona sesto film  orderby --</option>
+</select></div><div>
+Seleziona Decimo Film by:
+<select ng-options="item for item in columns" ng-model="thirdOrderBy">
+  <option value="">--  seleziona sesto film  orderby --</option>
+</select></div>
+
+<button ng-click="sortBy()">Sort</button>
